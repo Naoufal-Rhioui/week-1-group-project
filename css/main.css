@@ -1,0 +1,68 @@
+/*How it Works file*/
+*{
+    font-family: sans-serif,'Times New Roman', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_img{
+    width: 150px;    
+}
+
+.nav_list{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    border: 1px solid blue;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 9px;
+    width: 130px;
+height: 45px;
+}
+
+.nav_button_1{
+color: blue ;
+background: white;
+}
+.nav_button_1:hover{
+    color: rgb(224, 224, 255);
+    background-color: blue;
+}
+.nav_button_2{
+color: white;
+background: blue;
+}
+
+.nav_button_2:hover{
+    color: blue;
+    background-color: white;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: blue;
+    z-index: -1;
+    transition: 0.8s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.nav_button_2::before{
+    height: 180%;
+}
