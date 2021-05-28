@@ -7,61 +7,60 @@
         <meta name="Description" content="Enter your description here"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-        <link rel="stylesheet" href="/css/sign_in.css">
+        <link rel="stylesheet" href="./css/sign_in.css">
         <title>Sign In</title>
     </head>
-    <body class="text-center" data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
-        <div class="container">
-            <div class="top-left">
-                <p><b>Don't Have an Account Yet?</b></p>
-                <p><b>What are you waiting for? Let's Fix that now!</b></p>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>        
+    <body class="sign-in" data-new-gr-c-s-check-loaded="14.1012.0" data-gr-ext-installed="">
+        <div class="container-fluid">
+            <div class="row g-0">
+                <div class="col sign-up">
+                    <div class="sign-up-info">
+                        <p class="no-account"><b>Don't Have an Account Yet?</b></p>
+                        <p class="fix"><b>What are you waiting for? Let's Fix that now!</b></p>
+                        <button class="sign-up btn btn-md btn-primary" type="submit"><b>Sign Up</b></button>    
+                    </div>
+                    <img class="rocket" src="./images/sign-in/rocket.png" alt="buillding next to rocket with moon in sky">
+                </div>
+                <div class="col log-in">
+                    <main class="form-signin">
+                        <div class="form">
+                            <form>
+                                <h1 class="mb-3"><b>Sign In</b></h1>
+                                <div class="l">
+                                    <input type="email" class="form-control form-rounded" id="floatingInput" autocomplete="on">
+                                </div>
+                                <div class="l">
+                                    <input type="email" class="form-control form-rounded" id="floatingInput" autocomplete="on">
+                                </div>
+                                <div class="l">
+                                    <input type="password" class="form-control form-rounded" id="floatingPassword" autocomplete="on">
+                                </div>
+                        
+                                <div class="checkbox mb-3">
+                                    <label>
+                                        <input type="checkbox" value="remember-me"> Remember me
+                                    </label>
+                                </div>
+                                <button class="sign-in btn btn-md btn-primary" type="submit"><b>Sign In</b></button>
+                            </form>
+                        </div>
+                        <div class="social-sign-in">
+                            <p class="mt-5 mb-3"><b>Or Sign in with social platforms</b></p>
+                            <ul class="list-unstyled">
+                                <li class="social"><a class="social-link" href="https://www.facebook.com/?stype=lo&jlou=Aff1Yqb9up1A4S04cxqoNhQMhlxOMAnxIYqYpcb1WijeTQ4z66ZG7w5nSRmW4lCfK5QMvAMH36m6fmKz5xmmw86_xnlwaIA23v-GA67U9IRPyA&smuh=26305&lh=Ac_a9tBQuq50krWb0XQ" target="_blank"><img src="./images/sign-in/facebook.png"></a></li>
+                                <li class="social"><a class="social-link" href="https://twitter.com/login" target="_blank"><img src="./images/sign-in/twitter.png"></a></li>
+                                <li class="social"><a class="social-link" href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="./images/sign-in/google.png"></a></li>
+                                <li class="social"><a class="social-link" href="https://www.linkedin.com/login" target="_blank"><img src="./images/sign-in/linkedin.png"></a></li>
+                
+                            </ul>    
+                        </div>
+                    </main>
+                </div>
             </div>
-            <img src="" alt="Snow" style="width:100%;">
         </div>
 
-        <main class="form-signin">
-            <form>
-                <h1 class="mb-3"><b>Sign In</b></h1>
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput" autocomplete="on" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                    <label for="floatingInput">Username</label>
-                </div>
-                <div class="form-floating">
-                    <input type="email" class="form-control" id="floatingInput" autocomplete="on" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                    <label for="floatingInput">Email Address</label>
-                </div>
-                <div class="form-floating">
-                    <input type="password" class="form-control" id="floatingPassword" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-                    <label for="floatingPassword">Password</label>
-                </div>
-          
-                <div class="checkbox mb-3">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
-            </form>
-            <p class="mt-5 mb-3"><b>Or Sign in with social platforms</b></p>
-            <ul class="list-unstyled">
-                <li><a href="https://www.facebook.com/?stype=lo&jlou=Aff1Yqb9up1A4S04cxqoNhQMhlxOMAnxIYqYpcb1WijeTQ4z66ZG7w5nSRmW4lCfK5QMvAMH36m6fmKz5xmmw86_xnlwaIA23v-GA67U9IRPyA&smuh=26305&lh=Ac_a9tBQuq50krWb0XQ" target="_blank">Facebook</a></a></li>
-                <li><a href="https://twitter.com/login" target="_blank">Twitter</a></a></li>
-                <li><a href="https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank">Google</a></a></li>
-                <li><a href="https://www.linkedin.com/login" target="_blank">LinkedIn</a></a></li>
-
-            </ul>
-
-        </main>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
     </body>
 </html>
-    
-    
-    
-        
-      
-    
-    </body>

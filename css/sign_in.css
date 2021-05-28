@@ -1,0 +1,100 @@
+.log-in {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+div.form {
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+
+}
+
+.form-rounded {
+    border-radius: 10rem;
+    height: 60px;
+}
+
+h1.mb-3 {
+    margin-top: 80px;
+    font-size: 60px;
+    margin-right: 140px;
+    padding-bottom: 30px;
+}
+
+.l {
+    padding: 30px;
+}
+
+button.sign-in {
+    padding: 8px 60px 8px 60px;
+    margin-top: 30px;
+    border-radius: 10rem;
+    font-size: 25px;
+    background-color: blue;
+
+}
+
+.list-unstyled {
+    padding-top: 10px;
+}
+
+.social {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+.sign-up {
+    background-color: blue;
+    border-radius: 0 0 100% 0;
+}
+
+.sign-up-info {
+    margin-top: 75px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+p.no-account {
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+
+p.fix {
+    display: flex;
+    justify-content: center;
+
+}
+
+div.sign-up {
+    color: white;
+}
+
+button.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 60px 8px 60px;
+    margin: 10px 0 0 80px;
+    border-radius: 10em;
+    font-size: 25px;
+    background-color: blue;
+    border-width: 4px;
+    border-color: white;
+    width: 250px;
+    text-align: center;
+}
+
+.rocket {
+    position: relative;
+    display: flex;
+    float: right;
+    padding-right: 90px;
+    max-width: 100%;
+    height: auto;
+}
