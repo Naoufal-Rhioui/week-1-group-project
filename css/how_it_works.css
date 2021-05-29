@@ -254,6 +254,7 @@ font-size: 16px;
 }
 
 .footer_title{
+    padding-right: 11%;
     margin-top: 18px;
     padding-top: 50px;
 }
@@ -276,11 +277,12 @@ color: #0850f8 ;
 background: white;
 font-weight: bold;
 font-size: 23px;
+margin-right: 13%;
 }
 
 .footer_button_1:hover{
     color: rgb(224, 224, 255);
-    background-color: #0850f8;
+    background-color: #66ca59;
 }
 
 .footer_button_2{
@@ -317,4 +319,9 @@ background: #66ca59;
 
 .footer_container_left{
     font-size: 13px;
+margin-right: 10%;
+}
+
+.footer_element{
+    margin-right: 10%;
 }
