@@ -33,7 +33,7 @@ h1{
 
 .login_container > form > input{
     height: 30px;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 10px;
     background-color: #fff;
     outline: none;
@@ -45,9 +45,9 @@ h1{
 
     margin-left: 3em;
 }
-.btn{
+.btn btn-primary{
  margin: auto;
-  ;
+ float: right;
 }
 
 
