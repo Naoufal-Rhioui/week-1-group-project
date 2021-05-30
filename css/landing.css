@@ -19,18 +19,6 @@
   color: black;
 }
 
-.btn {
-  font-weight: bold;
-  border: 1px solid blue;
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.8s;
-  position: relative;
-  overflow: hidden;
-  border-radius: 9px;
-  width: 200px;
-  height: 75px;
-}
 
 .nav_button_1 {
   color: #0850f8;
