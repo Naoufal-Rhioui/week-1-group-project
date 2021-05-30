@@ -183,13 +183,21 @@ hr {
 /*3rd section*/
 
 .paragraph_title {
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: 120px;
 }
 
 .paragraph {
   font-size: 20px;
   text-align: center;
   margin-bottom: 70px;
+}
+.image_solution {
+  margin-bottom: 50px;
+}
+.img_start_to_explore {
+  margin-bottom: 100px;
+  margin-left: 400px;
 }
 
 .middle-container {
@@ -228,10 +236,28 @@ hr {
 }
 
 .header_right {
-  font-size: 25px;
-  margin-left: 125px;
+  font-size: 20px;
+  margin-left: 30px;
   margin-top: 8%;
-  margin-bottom: 13%;
+  margin-bottom: 5%;
+}
+
+.list_right {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.button_right {
+  font-size: 12px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+
+  border-radius: 9px;
+  width: 200px;
+  height: 30px;
 }
 
 /* footer*/
