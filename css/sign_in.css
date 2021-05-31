@@ -40,6 +40,14 @@ button.sign-in {
 
 }
 
+button.sign-in:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border-width: 5px;
+}
+
+
 .list-unstyled {
     padding-top: 10px;
 }
@@ -94,6 +102,12 @@ button.sign-up {
     border-color: white;
     width: 250px;
     text-align: center;
+}
+
+button.sign-up:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
 }
 
 .rocket {

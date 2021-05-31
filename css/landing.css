@@ -29,16 +29,40 @@
 .nav_button_1 {
   color: #0850f8;
   background: white;
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 9px;
+  width: 200px;
+  height: 75px;
+  font-size: 19px;
+  font-weight: bold;
+
 }
 
 .nav_button_1:hover {
   color: rgb(224, 224, 255);
   background-color: #0850f8;
+  border: 1px solid white;
+
 }
 
 .nav_button_2 {
   color: white;
   background: #0850f8;
+  border: 1px solid blue;
+  cursor: pointer;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 9px;
+  width: 200px;
+  height: 75px;
+  font-size: 19px;
+  font-weight: bold;
+
 }
 
 .nav_button_2:hover {
@@ -80,17 +104,39 @@ hr {
 .body_container_left {
   padding-left: 10%;
 }
+
+.first-line {
+  font-size: 90px;
+}
+
+.second-line {
+  font-size: 50px;
+  margin-top: -50px;
+}
+
+.third-line {
+  font-size: 25px;
+  margin-top: -30px;
+  color: gray;
+}
+
+.fourth-line {
+  color: gray;
+  font-size: 25px;
+
+}
+
+.fifth-line {
+  font-size: 15px;
+
+}
+
 /*flexbox use*/
 .para_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.middle-container {
-  display: flex;
-  justify-content: left;
 }
 
 .flexbox-container {
@@ -106,27 +152,33 @@ hr {
 
 .flexbox_item_left {
   width: 50%;
+  margin: auto;
+  padding-left: 180px;    
 }
 
 .flexbox_item_right {
   width: 50%;
+  display: flex;
+  justify-content: center;
+
 }
 .body_container_right {
-  width: 42vh;
+  width: 80%;
+  padding-top: 50px;
 }
 .in_link {
   text-decoration: none;
-  color: black;
+  color: gray;
 }
 
 /*2nd section*/
 
 .paragraph_title {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .paragraph {
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 70px;
 }
@@ -141,43 +193,53 @@ hr {
 }
 
 .middle_item_left {
+  margin: 0 -300px 0 50px;
   border: 1px solid black;
-  width: 50vh;
-  border-radius: 10px 0 0 10px;
+  border-radius: 50px ;
 }
 
 .middle_item_right {
   border: 1px solid black;
-  margin-right: 1px;
-  width: 65vh;
+  margin-right: 50px;
+  width:60%;
   background-color: #0850f8;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 50px 50px 0;
   color: white;
 }
 
-.para_right {
-  font-size: 16px;
+p.para_right {
+  font-size: 20px;
   margin-right: 65px;
-  margin-left: 30px;
+  margin-left: 50px;
 }
-.middle_item {
-  width: 70%;
-  padding-left: 16px;
-  padding-top: 35px;
+
+ul.list_right {
+  font-size: 15px;
+  margin-left: 30px;
+  padding-top: 25px;
+}
+
+li {
   padding-bottom: 20px;
 }
 
-.header_right {
-  font-size: 25px;
-  margin-left: 125px;
-  margin-top: 8%;
-  margin-bottom: 13%;
+.middle_item_1 {
+  width: 60%;
+  padding-left: 16px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+h3.header_right {
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top:8%;
 }
 
 /*3rd section*/
 
-.paragraph_title {
-  font-size: 25px;
+.paragraph_title_2 {
+  font-size: 40px;
   margin-top: 120px;
 }
 
@@ -188,10 +250,14 @@ hr {
 }
 .image_solution {
   margin-bottom: 50px;
+  width: 900px;
+  height: auto;
 }
 .img_start_to_explore {
   margin-bottom: 100px;
-  margin-left: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .middle-container {
@@ -242,32 +308,36 @@ hr {
 }
 
 .button_right {
-  font-size: 12px;
+  font-size: 18px;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   color: white;
   background-color: transparent;
   border-color: white;
-
-  border-radius: 9px;
-  width: 200px;
+  padding: 10px 0 30px 0;
+  border-radius: 10px;
+  border-width: 5px;
+  width: 300px;
   height: 30px;
+  line-height: -10px;
 }
 
 /* footer*/
 
 .footer_container {
-  height: 350px;
+  height: 350PX;
   width: 110%;
-  background-color: #0850f8;
+  background-color: #0850f8 ;
   color: white;
   text-align: center;
 }
 
 .footer_title {
+  padding-right: 11%;
   margin-top: 18px;
   padding-top: 50px;
-  padding-right: 11%;
+  font-size: 50px;
+  margin-bottom: -10px
 }
 
 .btun {
@@ -288,11 +358,13 @@ hr {
   background: white;
   font-weight: bold;
   font-size: 23px;
+  margin-right: 13%;
+
 }
 
 .footer_button_1:hover {
   color: rgb(224, 224, 255);
-  background-color: #0850f8;
+  background-color: #66ca59;
 }
 
 .footer_button_2 {
@@ -323,8 +395,7 @@ hr {
 }
 
 .footer_btn {
-  margin-right: 104px;
-  margin-left: -4%;
+  margin-left: 3%;
 }
 
 .footer_container_left {
@@ -334,4 +405,6 @@ hr {
 
 .footer_element{
   margin-right: 10%;
+  font-size: 25px;
+
 }

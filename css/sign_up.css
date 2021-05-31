@@ -1,74 +1,4 @@
-h1{
-    font-weight: lighter;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.img{
-    padding: 1em;
-    margin: 1em;
-    margin-right: 3em;
-    height: auto;
-    width: 50%; 
-        
-}
-.login{
-    background: white;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    align-items: relative;
-}
-
-.login_container{
-    margin-top: 15em;
-    margin-right: 2em;
-    margin-left: 9em;
-    width: 300px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    border-radius: 7px;
-    border:none;
-    
-}
-
-.login_container > form > input{
-    height: 60px;
-    border-radius: 40px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    outline: none;
-    width: 140%;
-    border: 1px solid gray;
-}
-
-input.inpt{
-    height: 10em;
-}
- button.btn.btn-primary.sign_up{
- margin-left: 250px;
- height: 3.5em;
- margin-top: 10em;
- width: 12em;
- border-radius: 40px;
-}
-
-.social {
-    margin-top: 10em;
-    display: inline-block;
-    padding: 0 15px 0 15px;
-    margin-left: 60px;
-}
-
-
-p.mt-5.mb-3>b{
-    margin-left: 16em;
-}
-
-.log-in {
-    margin: auto;
-    width: 100%;
+.sign-up {
     text-align: center;
 }
 
@@ -79,8 +9,12 @@ div.form {
 
 }
 
-.form-rounded {
-    border-radius: 10rem;
+.form-signup {
+    padding-bottom: 50px;
+}
+
+input.form-rounded {
+    border-radius: 10em;
     height: 60px;
 }
 
@@ -95,7 +29,7 @@ h1.mb-3 {
     padding: 30px;
 }
 
-button.sign-in {
+button.sign-up-button {
     padding: 8px 60px 8px 60px;
     margin-top: 30px;
     border-radius: 10rem;
@@ -104,11 +38,36 @@ button.sign-in {
 
 }
 
+button.sign-up-button:hover{
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border-width: 5px;
+}
+
+
+.social-sign-up {
+    margin: 0 50px 0 50px;
+}
+
 .list-unstyled {
     padding-top: 10px;
 }
 
-.btn{
- margin: auto;
-  ;
+.social {
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+.desk-image {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+}
+
+@media (max-width: 1290px) {
+    .desk-image {
+        visibility: hidden;
+    }
 }
